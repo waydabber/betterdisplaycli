@@ -9,13 +9,27 @@ BetterDisplay must be running and configured to accept CLI commands (this is the
 > 
 > `/Applications/BetterDisplay.app/Contents/MacOS/BetterDisplay help`
 
-## Usage
+## Installation and usage
+
+### Prerequisites
+
+- Swift must be installed for installation (enter `xcode-select --install`).
+- [BetterDisplay](https://betterdisplay.pro) v2.2.0 or later must be installed.
+- Source package should be downloaded.
+
+### Automated installation
+
+1. Enter `sudo make install`. This will compile the app and install it under `/usr/local/bin`.
+
+### Manual installation
 
 1. Compile by entering: `swiftc betterdisplaycli.swift`
-1. Make sure BetterDisplay 2.2.x and newer is running and is configured to accept CLI/notification requests.
-1. Run `./betterdisplaycli` for help.
+1. Move the compiled `betterdisplaycli` binary to a location where it's easily available in `$PATH`.
 
-You can move the compiled `betterdisplaycli` binary to a location where it's easily available in `$PATH`. Feel free to shorten the binary's name as well.
+### Usage
+
+1. Make sure BetterDisplay 2.2.x and newer is running and is configured to accept CLI/notification requests.
+1. Run `betterdisplaycli` for help.
 
 ## CLI and integration documentation
 
