@@ -30,6 +30,7 @@ BetterDisplay must be running and configured to accept CLI commands (this is the
 
 1. Make sure BetterDisplay 2.2.x and newer is running and is configured to accept CLI/notification requests.
 1. Run `betterdisplaycli` for help.
+1. Try `betterdisplaycli set -brightness=80%` to set the brightness level of all displays to 80%.
 
 > [!NOTE]
 > You can use the installed app itself to send CLI commands as well - the following prints help:
