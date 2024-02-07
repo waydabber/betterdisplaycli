@@ -4,7 +4,7 @@
 //  Created by @waydabber
 //
 //  Usage:
-//    1. compile by entering: `swiftc betterdisplaycli`
+//    1. compile by entering: `swiftc betterdisplaycli.swift`
 //    2. make sure BetterDisplay 2.2.x and newer is running and is configured to accept CLI/notification requests (default)
 //    3. run `./betterdisplaycli` for help
 //
