@@ -11,7 +11,7 @@ BetterDisplay must be running and configured to accept CLI commands (this is the
 
 ## Usage
 
-1. Compile by entering: `swiftc betterdisplaycli`
+1. Compile by entering: `swiftc betterdisplaycli.swift`
 1. Make sure BetterDisplay 2.2.x and newer is running and is configured to accept CLI/notification requests.
 1. Run `./betterdisplaycli` for help.
 
