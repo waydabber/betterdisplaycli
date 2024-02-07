@@ -4,11 +4,6 @@ A simple command line app to interact with [BetterDisplay](https://betterdisplay
 
 BetterDisplay must be running and configured to accept CLI commands (this is the default setting).
 
-> [!NOTE]
-> You can use the installed app itself to send CLI commands:
-> 
-> `/Applications/BetterDisplay.app/Contents/MacOS/BetterDisplay help`
-
 ## Installation and usage
 
 ### Prerequisites
@@ -35,6 +30,11 @@ BetterDisplay must be running and configured to accept CLI commands (this is the
 
 1. Make sure BetterDisplay 2.2.x and newer is running and is configured to accept CLI/notification requests.
 1. Run `betterdisplaycli` for help.
+
+> [!NOTE]
+> You can use the installed app itself to send CLI commands as well - the following prints help:
+> 
+> `/Applications/BetterDisplay.app/Contents/MacOS/BetterDisplay help`
 
 ## CLI and integration documentation
 
