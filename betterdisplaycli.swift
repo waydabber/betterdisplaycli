@@ -60,7 +60,7 @@ class BetterDisplayNotificationIntegration {
       if let encodedIntegrationNotificationRequestDataString = String(data: encodedIntegrationNotificationRequestData, encoding: .utf8) {
         DistributedNotificationCenter.default().postNotificationName(.init(self.integrationNotificationRequestName), object: encodedIntegrationNotificationRequestDataString, userInfo: nil, deliverImmediately: true)
         do {
-          try await Task.sleep(nanoseconds: UInt64(5 * 1_000_000_000))
+          try await Task.sleep(nanoseconds: UInt64(15 * 1_000_000_000))
         } catch {}
         fputs("Failed. Request timed out. BetterDisplay might not be running or is not configured to accept notifications.\n", stderr)
         exit(EXIT_FAILURE)
