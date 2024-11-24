@@ -18,12 +18,12 @@ BetterDisplay must be running and configured to accept CLI commands (this is the
    [betterdisplaycli-v1.0.1.zip](https://github.com/waydabber/betterdisplaycli/releases/download/v1.0.1/betterdisplaycli-v1.0.1.zip)
 1. Optionally move the downloaded binary to its permanent location (recommended: `/usr/local/bin`).
 
-#### Method 2 -  Automated installation via Homebrew
+#### Method 2 -  Automated compile and installation using Homebrew
 
 1. Install [XCode](https://developer.apple.com/xcode).
 1. Enter `brew install waydabber/betterdisplay/betterdisplaycli`
 
-#### Method 3 -  Manual installation from source
+#### Method 3 -  Manual compile and installation from source
 
 1. Install [XCode](https://developer.apple.com/xcode).
 2. Download source package `git clone https://github.com/waydabber/betterdisplaycli`
