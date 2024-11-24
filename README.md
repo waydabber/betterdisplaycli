@@ -14,7 +14,8 @@ BetterDisplay must be running and configured to accept CLI commands (this is the
 
 #### Method 1 - Direct download
 
-1. Download the compiled, signed, notarized version from the [Releases](https://github.com/waydabber/betterdisplaycli/releases) tab.
+1. Download the compiled, signed, notarized, universal binary version:
+   [betterdisplaycli-v1.0.1.zip](https://github.com/waydabber/betterdisplaycli/releases/download/v1.0.1/betterdisplaycli-v1.0.1.zip)
 1. Optionally move the downloaded binary to its permanent location (recommended: `/usr/local/bin`).
 
 #### Method 2 -  Automated installation via Homebrew
