@@ -23,7 +23,7 @@ if arguments.count <= 1 {
 
 for argument in arguments {
   if argument.hasPrefix("-") {
-    let argumentParts = argument.components(separatedBy: "=")
+    let argumentParts = argument.split(separator: "=", maxSplits: 1).map(String.init)
     parameters[argumentParts[0].trimmingCharacters(in: CharacterSet(charactersIn: "-"))] = argumentParts.count > 1 ? argumentParts[1] : nil
   } else {
     commands.append(argument)
